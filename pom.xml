@@ -25,6 +25,14 @@
          </plugin>
       </plugins>
    </build>
+   <dependencies>
+      <dependency>
+         <groupId>external.atlassian.jgitflow</groupId>
+            <artifactId>jgitflow-maven-plugin</artifactId>
+            <version>1.0-m4.3</version>
+            <classifier>sources</classifier>
+      </dependency>
+   </dependencies>
    <scm>
       <connection>scm:git:https://github.com/nadirsaghar/HelloGitFlow.git</connection>
       <developerConnection>scm:git:https://github.com/nadirsaghar/HelloGitFlow.git</developerConnection>
