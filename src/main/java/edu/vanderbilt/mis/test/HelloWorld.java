@@ -7,7 +7,7 @@ import com.atlassian.maven.plugins.jgitflow.helper.DefaultMavenExecutionHelper;
 
 
 public class HelloWorld {
-      private final static String NEW_FIELD = "New Field";
+      private final static String NEW_FIELD = "New Changed";
       
       public void test() throws Exception {
          DefaultMavenExecutionHelper helper = new DefaultMavenExecutionHelper();
