@@ -9,11 +9,6 @@
             <groupId>external.atlassian.jgitflow</groupId>
             <artifactId>jgitflow-maven-plugin</artifactId>
             <version>1.0-m4.3</version>
-            <executions>
-               <execution>
-                  <id>jgitflow-release</id>
-               </execution>
-            </executions>
             <configuration>
                <flowInitContext>
                   <masterBranchName>master</masterBranchName>
@@ -22,6 +17,7 @@
                   <releaseBranchPrefix>release-</releaseBranchPrefix>
                   <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                   <versionTagPrefix>HelloGitFlow-</versionTagPrefix>
+                  <mavenExecutorId>forked-path</mavenExecutorId>
                </flowInitContext>
                <enableFeatureVersions>true</enableFeatureVersions>
                <pushFeatures>true</pushFeatures>
