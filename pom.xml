@@ -20,7 +20,7 @@
                </flowInitContext>
                <enableFeatureVersions>true</enableFeatureVersions>
                <pushFeatures>true</pushFeatures>
-               <scmCommentPrefix>ACAD-3344</scmCommentPrefix>
+               <scmCommentPrefix>JGitFlow Release Plugin: </scmCommentPrefix>
             </configuration>
          </plugin>
       </plugins>
