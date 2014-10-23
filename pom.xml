@@ -18,7 +18,7 @@
                   <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                   <versionTagPrefix>HelloGitFlow-</versionTagPrefix>
                </flowInitContext>
-               <mavenExecutorId>forked-path</mavenExecutorId>
+               
                <enableFeatureVersions>true</enableFeatureVersions>
                <pushFeatures>true</pushFeatures>
                <scmCommentPrefix>JGitFlow Release Plugin: </scmCommentPrefix>
