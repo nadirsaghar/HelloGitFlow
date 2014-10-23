@@ -2,7 +2,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>edu.vanderbilt.mis.test</groupId>
    <artifactId>HelloGitFlow</artifactId>
-   <version>0.0.1-earth-SNAPSHOT</version>
+   <version>0.0.1-SNAPSHOT</version>
    <build>
       <plugins>
          <plugin>
