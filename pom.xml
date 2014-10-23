@@ -23,7 +23,7 @@
                <pushFeatures>true</pushFeatures>
                <scmCommentPrefix>JGitFlow Release Plugin: </scmCommentPrefix>
             </configuration>
-         </plugin>
+         </plugin> <!-- Adding a comment -->
       </plugins>
    </build>
    <dependencies>
