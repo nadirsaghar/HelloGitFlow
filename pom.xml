@@ -18,6 +18,7 @@
                   <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                   <versionTagPrefix>HelloGitFlow-</versionTagPrefix>
                </flowInitContext>
+               <mavenExecutorId>forked-path</mavenExecutorId>
                <enableFeatureVersions>true</enableFeatureVersions>
                <pushFeatures>true</pushFeatures>
                <scmCommentPrefix>JGitFlow Release Plugin: </scmCommentPrefix>
@@ -28,14 +29,14 @@
    <dependencies>
       <dependency>
          <groupId>external.atlassian.jgitflow</groupId>
-            <artifactId>jgitflow-maven-plugin</artifactId>
-            <version>1.0-m4.3</version>
-            <classifier>sources</classifier>
+         <artifactId>jgitflow-maven-plugin</artifactId>
+         <version>1.0-m4.3</version>
+         <classifier>sources</classifier>
       </dependency>
       <dependency>
          <groupId>external.atlassian.jgitflow</groupId>
-            <artifactId>jgitflow-maven-plugin</artifactId>
-            <version>1.0-m4.3</version>
+         <artifactId>jgitflow-maven-plugin</artifactId>
+         <version>1.0-m4.3</version>
       </dependency>
    </dependencies>
    <scm>
